@@ -1,5 +1,5 @@
 # Dart Linux Package Repository
-This is the Dart Linux Package Repository, built for @v1nch3ns0 's dart-linux repo!
+This is the Dart Linux Package Repository, built for [@v1nch3ns0](https://github.com/v1nch3ns0)!
 
 ## Main raw link to files is:
 ```https://raw.githubusercontent.com/Saveriokarol/dart-packages```
