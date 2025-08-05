@@ -5,8 +5,7 @@ This is the Dart Linux Package Repository, built for @v1nch3ns0 's dart-linux re
 ```https://raw.githubusercontent.com/Saveriokarol/dart-packages```
 
 ## Repository Usage
-1. Download ```[codename]/[arch]/manifest.csv```
-   e.g.: https://raw.githubusercontent.com/Saveriokarol/dart-packages/dattrin/x86_64/manifest.csv
+1. Download ```[codename]/[arch]/manifest.csv``` (e.g.: https://raw.githubusercontent.com/Saveriokarol/dart-packages/dattrin/x86_64/manifest.csv)
 2. Parse after the first line in the order (e.g.:)
 
    | name       | version | filepath           | depends         | description                      |
