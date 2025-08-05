@@ -5,8 +5,8 @@ This is the Dart Linux Package Repository, built for @v1nch3ns0 's dart-linux re
 ```https://raw.githubusercontent.com/Saveriokarol/dart-packages/[branch]/[filepath]```
 
 ## Repository Usage
-1. Download ```manifest.css```
-2. Parse after the first line in the order:
+1. Download ```manifest.csv```
+2. Parse after the first line in the order (e.g.:)
 
    | name       | version | filepath             | depends         | description                      |
    |------------|---------|----------------------|-----------------|----------------------------------|
