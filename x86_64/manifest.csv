@@ -1,0 +1,2 @@
+name,version,filepath,depends,description
+linux-qemu64,6.14,vm/linux-qemu64-6.14.dakg,,The Linux Kernel (qemu64 board)
