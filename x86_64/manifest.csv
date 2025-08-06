@@ -1,2 +1,3 @@
 name,version,filepath,depends,description
 linux-qemu64,6.14,vm/linux-qemu64-6.14.dakg,,The Linux Kernel (qemu64 board)
+microwindows,0.9,wm/microwindows-0.9.dakg,,Nano-X Window System
