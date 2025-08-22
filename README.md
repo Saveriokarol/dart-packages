@@ -1,19 +1,17 @@
-# Dart Linux Package Repository
-This is the Dart Linux Package Repository, built for [@v1nch3ns0](https://github.com/v1nch3ns0)'s package manager.
+# Dart Linux Package Repository – Source Codes
 
-## Main raw link to files is:
-```https://raw.githubusercontent.com/Saveriokarol/dart-packages```
+This repository hosts the **Dart Linux package sources**.
 
-## Repository Usage
-1. Download ```[codename]/[arch]/manifest.csv``` (e.g.: https://raw.githubusercontent.com/Saveriokarol/dart-packages/dattrin/x86_64/manifest.csv)
-2. Parse after the first line in the order (e.g.:)
+## Branch Structure
 
-   | name       | version | filepath           | depends         | description                      |
-   |------------|---------|--------------------|-----------------|----------------------------------|
-   | curl       | 8.0.1   | network/curl.dakg  | openssl+zlib    | Command line tool for transfers  |
-   | nano       | 6.2     | editor/nano.dakg   | ncurses         | Simple terminal text editor      |
-   | dart       | 3.3.0   | lang/dart.dakg     | libc+zlib       | Dart language SDK                |
+* Branches prefixed with `sources-` (e.g., `sources-dattrin`) are **independent branches** containing the **source code** for the corresponding packages stored in the normal branches.
+* Normal branches (e.g., `dattrin`) contain the **compiled packages** or package metadata.
 
-## Supported architectures
+## Example
 
-**Dattrin** (2025/08/05)  |  ```x86_64```
+| Branch            | Contents                               |
+| ----------------- | -------------------------------------- |
+| `dattrin`         | Compiled packages and metadata         |
+| `sources-dattrin` | Source code for the `dattrin` packages |
+
+> Note: Changes in `sources-` branches do **not** affect the normal branches automatically. They are maintained separately.
